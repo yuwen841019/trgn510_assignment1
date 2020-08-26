@@ -1,0 +1,69 @@
+    1  ls -ls
+    2  ls -la
+    3  cd assignments
+    4  ls -la
+    5  cd trgn_assignment1
+    6  ls -la
+    7  cat README.md
+    8  vi README.md
+    9  ls -l
+   10  echo "#trgn510_assignment1" >> README.md
+   11  ./README.md
+   12  cat README.md
+   13  vi README.md
+   14  cat README.md
+   15  git rm -f README.md
+   16  git rm readme.md
+   17  git rm README.md
+   18  ls -la
+   19  cd..
+   20  cd ..
+   21  ls -la
+   22  cd trgn_assignment1
+   23  ls -la
+   24  git rm README.md
+   25  echo "#trgn510_assignment1" >> README.md
+   26  git init
+   27  git add README.md
+   28  git commit -m "first commit"
+   29  git remote add origin https://github.com/yuwen841019/trgn510_assignment1.git
+   30  git push -u origin master
+   31  vi README.md
+   32  git add . -A
+   33  git commit -m "First commit"
+   34  git push origin master
+   35  git reset --hard 464a73e956a43d546a92249276f784cf24e574d5
+   36  git push origin +464a73e956a43d546a92249276f784cf24e574d5^:develop
+   37  git push origin 464a73e956a43d546a92249276f784cf24e574d5:develop
+   38  cd ..
+   39  ls -la
+   40  rm -r trgn_assignment1
+   41  clear
+   42  cd ..
+   43  ls -la
+   44  cd assignments
+   45  cat .bash_history
+   46  rm -f
+   47  rm -f .bash_history
+   48  cd ..
+   49  rm -f .bash_history
+   50  ls -la
+   51  cd assignments
+   52  ls -la
+   53  mkdir trgn_assignment1
+   54  cd trgn_assignment1
+   55  echo "#trgn510_assignment1" >> README.md
+   56  git init
+   57  git add README.md
+   58  git commit -m "first commit"
+   59  git remote add origin https://github.com/yuwen841019/trgn510_assignment1.git
+   60  git push -u origin master
+   61  vi README.md
+   62  git add . -A
+   63  git commit -m "First commit"
+   64  git push origin master
+   65  mkdir problem1
+   66  cd problem1
+   67  history
+   68  touch myhistory.txt
+   69  history > myhistory.txt
